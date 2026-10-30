@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portofolio Raniyah Annisa Kaloko, mahasiswa Teknologi Informasi yang sedang belajar web development.">
+    <title>Portofolio | Raniyah Annisa Kaloko</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        :root {
+            --pink-soft: #f8dce6;
+            --pink-light: #fff7fa;
+            --pink-accent: #b96788;
+            --text-dark: #49343d;
+        }
+
+        .navbar {
+            background-color: var(--pink-soft);
+        }
+
+        .navbar-brand,
+        .nav-link {
+            color: var(--text-dark);
+        }
+
+        .nav-link:hover,
+        .nav-link.active {
+            color: var(--pink-accent);
+        }
+
+        .profile-image {
+            width: 220px;
+            height: 220px;
+            object-fit: cover;
+            border: 5px solid #f6aece;
+        }
+
+        .portfolio-card {
+            border: 1px solid #f1d5df;
+            border-radius: 1rem;
+            overflow: hidden;
+        }
+
+        .project-image {
+            height: 210px;
+            object-fit: cover;
+        }
+
+        .btn-primary {
+            background-color: var(--pink-accent);
+            border-color: var(--pink-accent);
+        }
+
+        .btn-primary:hover {
+            background-color: #9f4e70;
+            border-color: #562137;
+        }
+
+        section[id] {
+            scroll-margin-top: 5rem;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#beranda">Portofolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavigasi" aria-controls="menuNavigasi" aria-expanded="false" aria-label="Buka atau tutup menu navigasi">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuNavigasi">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#beranda">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tentang">Tentang</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#proyek">Proyek</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="beranda" class="hero-section py-5">
+            <div class="container py-lg-5">
+                <div class="row align-items-center g-5">
+                    <div class="col-12 col-lg-5 text-center">
+                        <img src="FotoDiri.jpeg" class="profile-image rounded-circle shadow mx-auto d-block" alt="Foto profil Raniyah Annisa Kaloko">
+                    </div>
+                    <div class="col-12 col-lg-7 text-center text-lg-start">
+                       <h3>halo semua (˶˃ ᵕ ˂˶) .ᐟ.ᐟ
+                        <small class="text-body-secondary">saya</small>
+                       </h3>
+                        <h1 class="display-5 fw-bold">Raniyah Annisa Kaloko</h1>
+                        <h2 class="h4 text-secondary mb-2">Mahasiswa Teknologi Informasi di Universitas Sumatera Utara</h2>
+                        <h4 class="h5 text-secondary mb-4 opacity-25">261402059-A1</h4>
+                        <a class="btn btn-primary btn-lg me-2 mb-2" href="#proyek">Lihat Proyek Saya</a>
+                        <a class="btn btn-primary btn-lg mb-2" href="#kontak">Kontak Saya</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="tentang" class="py-5">
+            <div class="container py-3">
+                <div class="text-center mb-4">
+                    <h2 class="fw-bold">⋆. 𐙚˚࿔ 𝑻𝒆𝒏𝒕𝒂𝒏𝒈 𝑺𝒂𝒚𝒂 𝜗𝜚˚⋆</h2>
+                    <p class="text-secondary mx-auto" style="max-width: 680px;">Saya adalah mahasiswa Teknologi Informasi di Universitas Sumatera Utara. Saat ini saya terus berlatih membangun website sebagai bekal untuk berkembang di bidang teknologi.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-12 col-md-4">
+                        <div class="card portfolio-card h-100 shadow-sm">
+                            <div class="card-body p-4">
+                                <h5 class="card-title fw-bold">Minat</h5>
+                                <p class="card-text mb-0">Desain Grafis</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card portfolio-card h-100 shadow-sm">
+                            <div class="card-body p-4">
+                                <h5 class="card-title fw-bold">Keahlian</h5>
+                                <p class="card-text mb-0">Sedang mempelajari HTML, CSS, JavaScript, serta penggunaan Bootstrap.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card portfolio-card h-100 shadow-sm">
+                            <div class="card-body p-4">
+                                <h5 class="card-title fw-bold">Pendidikan</h5>
+                                <p class="card-text mb-0">Mahasiswa Teknologi Informasi, Fasilkom-TI, USU.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="proyek" class="py-5">
+            <div class="container py-3">
+                <div class="text-center mb-4">
+                    <h2 class="fw-bold">𝑷𝒓𝒐𝒚𝒆𝒌 𝑺𝒂𝒚𝒂 .✦ ݁˖</h2>
+                    <p class="text-secondary">Beberapa latihan yang saya kerjakan selama belajar pemrograman web 👀</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card portfolio-card w-100 h-100 shadow-sm">
+                            <img src="bufaridah.jpeg" class="card-img-top project-image" alt="Ilustrasi proyek pemesanan makanan">
+                            <div class="card-body p-4">
+                                <h5 class="card-title fw-bold">Form Pemesanan Frozen Food</h5>
+                                <p class="card-text">Latihan Praktikum Pemrograman Web membuat form pemesanan dengan pilihan produk, jadwal pengambilan, dan metode pengiriman.</p>
+                                <a href="proyek1.html" class="btn btn-primary">Lihat Proyek</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card portfolio-card w-100 h-100 shadow-sm">
+                            <img src="hero.jpg.jpg" class="card-img-top project-image" alt="Ilustrasi landing page Proweb">
+                            <div class="card-body p-4">
+                                <h5 class="card-title fw-bold">Landing Page Proweb</h5>
+                                <p class="card-text">Latihan pada mata kuliah Pemrograman Web menggunakan Bootstrap, tombol, dan komponen card dalam halaman responsif.</p>
+                                <a href="proyek2.html" class="btn btn-primary">Lihat Proyek</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card portfolio-card w-100 h-100 shadow-sm">
+                            <img src="fotoproyek3.jpg" class="card-img-top project-image" alt="Foto profil Raniyah Annisa Kaloko">
+                            <div class="card-body p-4">
+                                <h5 class="card-title fw-bold">Halaman Web Portofolio</h5>
+                                <p class="card-text">Latihan Praktikum Pemrograman Web membuat Halaman portofolio pribadi yang berisi profil, informasi tentang saya, daftar proyek, dan formulir kontak.</p>
+                                <a href="#beranda" class="btn btn-primary">Lihat Proyek</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="kontak" class="py-5" style="background-color: var(--pink-light);">
+            <div class="container py-3">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8 col-lg-6">
+                        <div class="card shadow-sm p-4 border-0" style="background-color: #fff;">
+                            <h2 class="fw-bold mb-3 text-center">⋆. 𐙚 ˚𝑲𝒐𝒏𝒕𝒂𝒌 𝑺𝒂𝒚𝒂˚ 𐙚 .⋆</h2>
+                            <p class="text-secondary text-center">Jika Anda ingin menghubungi saya, silakan kirim pesan ke @rraniyahannisa@gmail.com melalui formulir di bawah ini ya! 👇</p>
+                            <form id="formKontak" class="was-validated" onsubmit="kirimEmail(event)">
+                                <div class="mb-3">
+                                    <label for="emailPengirim" class="form-label">Email Anda</label>
+                                    <input type="email" class="form-control" id="emailPengirim" placeholder="name@gmail.com" required>
+                                    <div class="invalid-feedback">
+                                        Masukkan alamat email yang valid (╥﹏╥)
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="validationTextarea" class="form-label">Pesan Anda</label>
+                                    <textarea class="form-control" id="validationTextarea" rows="4" placeholder="Isi pesan Anda di sini..." required></textarea>
+                                    <div class="invalid-feedback">
+                                        Silakan isi pesan anda... (˶ᵔ ᵕ ᵔ˶)
+                                    </div>
+                                </div>
+
+                                <div class="text-center">
+                                    <button class="btn btn-primary btn-lg mt-3 w-100" type="submit">Kirim Pesan</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="py-4 text-center" style="background-color: #f8dce6;">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 Raniyah Annisa Kaloko</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script>
+        function kirimEmail(event) {
+            event.preventDefault();
+
+            const form = document.getElementById("formKontak");
+            const email = document.getElementById("emailPengirim").value;
+            const pesan = document.getElementById("validationTextarea").value;
+
+            if (email == "" || pesan == "") {
+                alert("Email dan pesan harus diisi!");
+            } else {
+                alert("Pesan berhasil dikirim! Terima kasih sudah menghubungi saya! 𐔌՞ ܸ.ˬ.ܸ՞𐦯");
+                form.reset();
+            }
+        }
+    </script>
+</body>
+</html>
